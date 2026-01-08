@@ -18,7 +18,7 @@ export default function Navbar() {
         </div>
         <div className="flex items-center gap-3">
           <ModeToggle />
-          <Link href="/login">
+          <Link href="/sign-in">
             <Button variant="outline">Login</Button>
           </Link>
         </div>
