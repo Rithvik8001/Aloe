@@ -1,12 +1,12 @@
 import { z } from "zod";
 
 export const bookmarkSchema = z.object({
-  url: z.url({ message: "URL is required" }),
+  url: z.url().optional(),
   title: z.string().min(1, { message: "Title is required" }),
   desc: z.string().optional(),
   favicon: z.string().optional(),
   type: z
-    .enum(["link", "note", "thought"], {
+    .enum(["link", "plain_text", "color"], {
       message: "Type is required",
     })
     .default("link"),

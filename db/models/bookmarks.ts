@@ -11,7 +11,7 @@ export const bookmarks = pgTable(
   "bookmarks",
   {
     id: uuid("id").defaultRandom().primaryKey(),
-    url: text("url").notNull(),
+    url: text("url"),
     title: text("title").notNull(),
     desc: text("desc"),
     favicon: text("favicon"),
