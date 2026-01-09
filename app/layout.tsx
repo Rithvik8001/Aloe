@@ -4,6 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { ClerkProvider } from "@clerk/nextjs";
 import { Toaster } from "@/components/ui/sonner";
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -21,7 +22,7 @@ const ibmPlexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Aloe - A simple, fast, and minimal bookmark manager.",
+  title: "Aloe — A simple, fast, and minimal bookmark manager.",
   description: "Aloe is a simple, fast, and minimal bookmark manager.",
   icons: {
     icon: "/clover.svg",

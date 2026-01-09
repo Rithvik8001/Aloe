@@ -12,7 +12,6 @@ export default function Header() {
             A marker for your digital journey. Signposts to guide you back to
             the places worth remembering.
           </p>
-
           <h3 className="text-lg font-medium mt-12 font-(family-name:--font-ibm-plex-mono)">
             About
           </h3>
@@ -22,7 +21,6 @@ export default function Header() {
             algorithms deciding what matters. No feeds competing for attention.
             Just your signposts, waiting patiently until you need them again.
           </p>
-
           <h3 className="text-lg font-medium mt-12 font-(family-name:--font-ibm-plex-mono)">
             Join
           </h3>
@@ -34,7 +32,6 @@ export default function Header() {
             to get started.
           </p>
         </div>
-
         <div className="mt-auto pt-8 border-t border-border flex justify-between items-center text-xs text-muted-foreground pb-4">
           <p>v1.0.0</p>
           <Link
