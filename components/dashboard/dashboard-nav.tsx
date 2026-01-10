@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image";
 import { ModeToggle } from "../theme-toggle";
 import { useUser, useClerk } from "@clerk/nextjs";
@@ -27,7 +28,7 @@ export default function DashboardNavbar() {
             className="dark:invert"
           />
         </div>
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-3">
           <ModeToggle />
           {user && (
             <DropdownMenu>
